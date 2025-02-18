@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Perfect Prompt</title>
+
+    <script src="lang/lang.js" defer></script>
+
+    <style>
+        * {
+            font-family: sans-serif;
+            color: #f4f1e9; /* Light beige for readability */
+            box-sizing: border-box;
+        }
+        body {
+            background-color: #5c5c7b; /* Dark purple-gray for high contrast */
+        }
+        h1, h2 {
+            text-align: center;
+        }
+        #main {
+            margin: auto;
+            max-width: 1024px;
+        }
+        img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        #lang-change {
+            position: absolute;
+            display: inline;
+            top: 0;
+            right: 0;
+            padding: 0.75rem;
+            background-color: #46468c; /* High contrast blue */
+            color: #f4f1e9;
+            border: none;
+            cursor: pointer;
+            border-radius: 6px;
+        }
+        #lang-change:focus {
+            outline: 2px solid #fff28f; /* High contrast focus outline */
+        }
+        table {
+            width: 100%;
+            margin-top: 2rem;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 0.75rem;
+            border: 2px solid #f4f1e9;
+            text-align: center;
+        }
+        th {
+            background-color: #46468c;
+            color: #f4f1e9;
+        }
+        td {
+            background-color: #7777a8;
+            color: #ffffff;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            max-width: 400px;
+            margin: auto;
+        }
+        input {
+            padding: 8px;
+            border: 2px solid #f4f1e9;
+            background-color: #5c5c7b;
+            color: #f4f1e9;
+            border-radius: 6px;
+        }
+        input:focus {
+            outline: 2px solid #fff28f;
+        }
+        button {
+            padding: 10px;
+            background-color: #46468c;
+            color: #f4f1e9;
+            border: none;
+            cursor: pointer;
+            border-radius: 6px;
+        }
+        button:focus {
+            outline: 2px solid #fff28f;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <button id="lang-change" aria-label="Change language">Change to Spanish</button>
+    </header>
+
+    <main id="main">
+        <h1 id="title">The Imperfect Page</h1>
+        <p id="introduction">
+            Hello, this is a simple page made to demonstrate the accessibility prompt for AI assistants. 
+            These texts are the same in both the accessible version and the inaccessible version.
+        </p>
+        <p id="description">
+            The rest of the page is simply an example to showcase an inaccessible page. 
+            For example, the next image now includes a descriptive alt text.
+        </p>
+
+        <h2 id="image-header">Remember our promise</h2>
+        <img src="assets/images/left-blank-1.webp" alt="An eerie, dimly lit underground space with mysterious openings in the ground.">
+        <p id="image-explanation">
+            Great holes secretly are dug where earth's pores ought to suffice, 
+            and things have learned to walk that ought to crawl.
+        </p>
+
+        <h2 id="form-header">Test Form</h2>
+        <form>
+            <label for="input-text" id="input-text-label">Example Text Input</label>
+            <input type="text" id="input-text" aria-required="true" placeholder="Enter text here">
+
+            <button type="submit" id="submit-btn" aria-label="Submit Form">Submit</button>
+        </form>
+
+        <h2>Data Table</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th scope="col">Category</th>
+                    <th id="table-header-foof-around" scope="col">Act Carelessly</th>
+                    <th id="table-header-dont-foof-around" scope="col">Act Carefully</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th id="table-header-find-out" scope="row">Find Out</th>
+                    <td id="table-cell-makes-sense-1">Makes sense</td>
+                    <td id="table-cell-skill-issue">Needs improvement</td>
+                </tr>
+                <tr>
+                    <th id="table-header-dont-find-out" scope="row">Don't Find Out</th>
+                    <td id="table-cell-how">How did you do that?</td>
+                    <td id="table-cell-makes-sense-2">Makes sense</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+
+    <footer>
+        <p>© 2025 The Perfect Prompt. All rights reserved.</p>
+    </footer>
+</body>
+</html>

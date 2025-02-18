@@ -1,0 +1,19 @@
+{
+    "lang-change": "Change to Spanish",
+    "title": "The Imperfect Page",
+    "introduction": "Hello, this is a simple page made to demonstrate the accessibility prompt for AI assistants. These texts are the same in both the accessible version and the inaccessible version.",
+    "description": "The rest of the page is simply an example to showcase an inaccessible page. For example, the next image won't have an alt text in the input.html version.",
+    "image-header": "Remember our promise",
+    "image-explanation": "Great holes secretly are digged where earth's pores ought to suffice, and things have learnt to walk that ought to crawl.",
+    "form-header": "Test Form",
+    "input-text-label": "Example Text Input",
+    "submit-btn": "Submit",
+    "table-header-foof-around": "Fuck Around",
+    "table-header-dont-foof-around": "Don't Fuck Around",
+    "table-header-find-out": "Find Out",
+    "table-cell-makes-sense-1": "Makes sense",
+    "table-cell-skill-issue": "Skill issue",
+    "table-header-dont-find-out": "Don't Find Out",
+    "table-cell-how": "How did you do that?",
+    "table-cell-makes-sense-2": "Makes sense"
+}

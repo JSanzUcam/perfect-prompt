@@ -1,0 +1,19 @@
+{
+    "lang-change": "Cambiar a Inglés",
+    "title": "La Página Imperfecta",
+    "introduction": "Hola, esta es una simple página creada para demostrar el prompt de accesibilidad para asistentes de IA. Estos textos son los mismos tanto en la versión accesible como en la versión inaccesible.",
+    "description": "El resto de la página es simplemente un ejemplo para mostrar una página inaccesible. Por ejemplo, la siguiente imagen no tendrá un texto alt en la versión input.html.",
+    "image-header": "Recuerda nuestra promesa",
+    "image-explanation": "Excavados son, secretamente, inmensos hoyos donde debían bastar los poros de la tierra, y han aprendido a caminar unas criaturas que sólo deberían arrastrarse.",
+    "form-header": "Formulario de Prueba",
+    "input-text-label": "Input de texto de ejemplo",
+    "submit-btn": "Enviar",
+    "table-header-foof-around": "El que busca",
+    "table-header-dont-foof-around": "El que no busca",
+    "table-header-find-out": "Encuentra",
+    "table-cell-makes-sense-1": "Tiene sentido",
+    "table-cell-skill-issue": "Problema de habilidad",
+    "table-header-dont-find-out": "No Encuentra",
+    "table-cell-how": "¿Cómo lo has hecho?",
+    "table-cell-makes-sense-2": "Tiene sentido"
+}
