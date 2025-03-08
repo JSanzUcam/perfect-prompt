@@ -15,5 +15,11 @@
     "table-cell-skill-issue": "Skill issue",
     "table-header-dont-find-out": "Don't Find Out",
     "table-cell-how": "How did you do that?",
-    "table-cell-makes-sense-2": "Makes sense"
+    "table-cell-makes-sense-2": "Makes sense",
+
+    "the-perfect-prompt": "The Perfect Prompt",
+    "the-original": "The Original",
+    "copilot": "Copilot's Output",
+    "chatgpt-1": "ChatGPT's Output",
+    "chatgpt-2": "ChatGPT's Alternative Output"
 }

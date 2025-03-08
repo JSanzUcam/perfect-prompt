@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hub</title>
+
+    <script src="lang/lang.js" defer></script>
+    <!-- illegal :) -->
+    <style>
+        * {
+            font-family: sans-serif;
+            color: white;
+            box-sizing: border-box;
+        }
+        h1 {
+            text-align: center;
+        }
+        body {
+            margin: 0;
+            padding: 0;
+            min-height: 100svh;
+            background-image: linear-gradient(120deg, #59E, #45A);
+        }
+        #lang-change {
+            position: absolute;
+            display: inline;
+            top: 0;
+            right: 0;
+            padding: 0.75rem;
+            background-color: #349;
+            cursor: pointer;
+        }
+        div.container {
+            max-width: 1024px;
+            margin: auto;
+            border: #349 1px solid;
+            border-radius: 1rem;
+            background-color: color-mix(in srgb, white, transparent 75%);
+            box-shadow: color-mix(in srgb, black, transparent 50%) 0 5px 1rem;
+            padding: 1rem;
+            margin-bottom: 2rem;
+        }
+        img {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <!-- Change language button -->
+    <button id="lang-change"></button>
+
+    <h1 id="the-perfect-prompt"></h1>
+
+    <div class="container">
+        <h2 id="the-original"></h2>
+        <a href="input.html" target="_blank">
+            <img src="assets/readme-imgs/input.png" alt="Screenshot of the input.html file">
+        </a>
+    </div>
+    <!-- Copilot -->
+    <div class="container">
+        <h2 id="copilot"></h2>
+        <a href="output.html" target="_blank">
+            <img src="assets/readme-imgs/output.png" alt="Screenshot of the output.html file">
+        </a>
+    </div>
+    <!-- ChatGPT -->
+    <div class="container">
+        <h2 id="chatgpt-1"></h2>
+        <a href="output.gpt.html" target="_blank">
+            <img src="assets/readme-imgs/output.gpt.png" alt="Screenshot of the output.gpt.html file">
+        </a>
+        <h2 id="chatgpt-2"></h2>
+        <a href="output,gpt-v2.html" target="_blank">
+            <img src="assets/readme-imgs/output.gpt-v2.png" alt="Screenshot of the output.gpt-v2.html file">
+        </a>
+    </div>
+</body>
+</html>

@@ -3,7 +3,8 @@ let current = 0;
 
 function translatePage(stringsObj) {
     Object.keys(stringsObj).forEach((key) => {
-        document.getElementById(key).textContent = stringsObj[key];
+        const element = document.getElementById(key);
+        if (element) element.textContent = stringsObj[key];
     });
 }
 

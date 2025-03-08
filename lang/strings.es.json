@@ -15,5 +15,11 @@
     "table-cell-skill-issue": "Problema de habilidad",
     "table-header-dont-find-out": "No Encuentra",
     "table-cell-how": "¿Cómo lo has hecho?",
-    "table-cell-makes-sense-2": "Tiene sentido"
+    "table-cell-makes-sense-2": "Tiene sentido",
+
+    "the-perfect-prompt": "El Prompt Perfecto",
+    "the-original": "El Original",
+    "copilot": "Output de Copilot",
+    "chatgpt-1": "Output de ChatGPT",
+    "chatgpt-2": "Output alternativo de ChatGPT"
 }
